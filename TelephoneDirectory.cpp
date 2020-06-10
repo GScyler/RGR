@@ -343,7 +343,7 @@ void TelephoneDirectory::fin()
 	else
 	{
 		int c = 0, cn = 0;
-		string pfin, pstring;
+		string pfin;
 		Size = 0;
 		delete[] TD;
 		TD = new Account[0];
@@ -381,7 +381,7 @@ void TelephoneDirectory::fin()
 				}
 			}
 		}
-		cout << "Loading from the file was completed\n" << pstring << endl;
+		cout << "Loading from the file was completed\n" << endl;
 	}
 	fin.close();
 }
